@@ -37,6 +37,29 @@
 
 <body class="index-page">
 
+  <!-- ======= Top Bar ======= -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-md-6">
+          <div class="top-bar-content">
+            <span class="top-bar-text">Get started today to discuss your robotics needs</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="top-bar-actions">
+            <a href="https://calendar.google.com/calendar/u/0/appointments/AcZssZ1EEd3Nb9NL18W29G2Bq6AnmnzQei5bLImsCkM=" 
+               target="_blank" 
+               class="top-bar-cta">
+              <i class="bi bi-calendar-plus"></i>
+              Book a Call
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -506,7 +529,7 @@
                 <br>Robotics Company? Let us help you get your robot to market faster. 
                 <br>Not a robotics company? Let us help you use robots quickly and cost-effectively.</p>
               <div class="hero-actions justify-content-center justify-content-lg-start">
-                <a href="#services" class="btn-primary scrollto">Start Journey</a>
+                <a href="#contact" class="btn-primary scrollto">Start Journey</a>
                 <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-video d-flex align-items-center">
                   <i class="bi bi-play-fill"></i>
                   <span>Watch Demo</span>
@@ -1951,59 +1974,37 @@
           <div class="col-lg-7 order-lg-1 order-2">
             <div class="contact-form-container">
               <div class="form-intro">
-                <h2>Let's Start a Conversation</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                <h2>Book a Call with Arcana Bytes</h2>
+                <p>Ready to explore how robotics can transform your business? Schedule a call with our experts. No obligation, just insights that could revolutionize your operations.</p>
               </div>
 
-              <form action="forms/contact.php" method="post" class="php-email-form contact-form">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="text" name="name" class="form-input" id="userName" placeholder="Your Name" required="">
-                      <label for="userName" class="field-label">Name</label>
-                    </div>
+              <!-- Google Calendar Appointment Booking -->
+              <div class="calendar-booking-container">
+                <div class="booking-info">
+                  <div class="booking-icon">
+                    <i class="bi bi-calendar-check"></i>
                   </div>
-
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="email" class="form-input" name="email" id="userEmail" placeholder="Your Email" required="">
-                      <label for="userEmail" class="field-label">Email</label>
-                    </div>
+                  <div class="booking-details">
+                    <h4>Schedule a Call</h4>
+                    <p>Choose a time that works for you and let's discuss your robotics needs</p>
                   </div>
                 </div>
-
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="tel" class="form-input" name="phone" id="userPhone" placeholder="Your Phone">
-                      <label for="userPhone" class="field-label">Phone</label>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="text" class="form-input" name="subject" id="messageSubject" placeholder="Subject" required="">
-                      <label for="messageSubject" class="field-label">Subject</label>
-                    </div>
-                  </div>
+                
+                <!-- Google Calendar Appointment Button -->
+                <div class="calendar-button-container">
+                  <a href="https://calendar.google.com/calendar/u/0/appointments/AcZssZ1EEd3Nb9NL18W29G2Bq6AnmnzQei5bLImsCkM=" 
+                     target="_blank" 
+                     class="calendar-booking-button">
+                    <i class="bi bi-calendar-plus"></i>
+                    <span>Book Your Call</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
 
-                <div class="form-field message-field">
-                  <textarea class="form-input message-input" name="message" id="userMessage" rows="5" placeholder="Tell us about your project" required=""></textarea>
-                  <label for="userMessage" class="field-label">Message</label>
+                <div class="booking-cta">
+                  <p><strong>Can't find a suitable time?</strong> Email us at <a href="mailto:arcanabytes@gmail.com">arcanabytes@gmail.com</a> and we'll find a time that works for you.</p>
                 </div>
-
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-
-                <button type="submit" class="send-button">
-                  Send Message
-                  <span class="button-arrow">→</span>
-                </button>
-              </form>
+              </div>
             </div>
           </div>
 
